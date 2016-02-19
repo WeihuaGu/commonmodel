@@ -1,0 +1,3 @@
+[submodule "tags/freetag"]
+	path = tags/freetag
+	url = https://github.com/WeihuaGu/freetag
