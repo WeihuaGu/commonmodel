@@ -10,5 +10,9 @@
             "email": "weihuagu_work@163.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": { "Weihuagu\\Commonmodel\\": "/"
+ }
+    }
 }
