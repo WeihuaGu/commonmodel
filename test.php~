@@ -1,3 +1,8 @@
 <?php 
+namespace Weihuagu\Commonmodel;
 require_once 'autoload.php';
-new \sns\User\Model\UcenterMemberModel();
+class test {
+	function test(){
+	new \sns\User\Model\UcenterMemberModel();
+	}
+}
