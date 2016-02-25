@@ -21,6 +21,7 @@ function autoload($className)
     if (is_readable($fileclass)) {
         require $fileclass;
     }
+    require 'vendor/autoload.php';
 }
 
 spl_autoload_register('autoload');

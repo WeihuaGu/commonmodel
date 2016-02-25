@@ -1,0 +1,19 @@
+{
+    "name": "weihuagu/commonmodel",
+    "keywords": ["common model"],
+    "authors": [
+        {
+            "name": "weihuagu",
+            "email": "weihuagu_work@163.com"
+        }
+    ],
+     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/WeihuaGu/commonmodel"
+        }
+    ],
+    "require": {
+        "catfan/Medoo": "1.0"
+    }
+}
