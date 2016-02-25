@@ -1,14 +1,14 @@
 {
     "name": "weihuagu/commonmodel",
-    "keywords": ["common model"],
+    "description": "common model",
+    "require": {
+        "catfan/medoo": "1.0"
+    },
     "authors": [
         {
             "name": "weihuagu",
             "email": "weihuagu_work@163.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
-        "catfan/Medoo": "1.0"
-    }
+    "minimum-stability": "dev"
 }
