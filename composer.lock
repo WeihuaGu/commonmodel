@@ -4,39 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "090314c55123bb9478aa5e02aa7514bc",
+    "hash": "eb23d97ef6fae24045a5a1f0a56a484a",
     "packages": [
         {
-            "name": "catfan/medoo",
-            "version": "v1.0",
+            "name": "dc/ioc",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/catfan/Medoo.git",
-                "reference": "634bcef389e4eaa40d10e6d66a9eecc0f7638cc7"
+                "url": "https://github.com/digitalcreations/ioc.git",
+                "reference": "89efc42e6d0207311d4313180d11d75d3cdd73b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/catfan/Medoo/634bcef389e4eaa40d10e6d66a9eecc0f7638cc7.zip",
-                "reference": "634bcef389e4eaa40d10e6d66a9eecc0f7638cc7",
+                "url": "http://packagist.phpcomposer.com/files/digitalcreations/ioc/89efc42e6d0207311d4313180d11d75d3cdd73b0.zip",
+                "reference": "89efc42e6d0207311d4313180d11d75d3cdd73b0",
                 "shasum": ""
             },
-            "require": {
-                "ext-pdo": "*",
-                "php": ">=5.1"
+            "require-dev": {
+                "phpunit/phpunit": "4.0.*"
             },
-            "suggest": {
-                "ext-pdo_dblib": "For MSSQL or Sybase databases on Linux/UNIX platform",
-                "ext-pdo_mysql": "For MySQL or MariaDB databases",
-                "ext-pdo_oci": "For Oracle databases",
-                "ext-pdo_pqsql": "For PostgreSQL databases",
-                "ext-pdo_sqlite": "For SQLite databases",
-                "ext-pdo_sqlsrv": "For MSSQL databases on Windows platform"
-            },
-            "type": "framework",
+            "type": "library",
             "autoload": {
-                "files": [
-                    "medoo.php"
-                ]
+                "psr-4": {
+                    "DC\\IoC\\": "src/IoC"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -44,22 +35,25 @@
             ],
             "authors": [
                 {
-                    "name": "Angel Lai",
-                    "email": "angel@catfan.me"
+                    "name": "Digital Creations AS",
+                    "homepage": "http://www.digitalcreations.no",
+                    "role": "Company"
+                },
+                {
+                    "name": "Vegard Andreas Larsen",
+                    "homepage": "http://vega.rd.no",
+                    "role": "Developer"
                 }
             ],
-            "description": "The Lightest PHP database framework to accelerate development",
-            "homepage": "http://medoo.in",
+            "description": "Simple IoC container",
+            "homepage": "http://github.com/digitalcreations/ioc",
             "keywords": [
-                "database",
-                "lightweight",
-                "mssql",
-                "mysql",
-                "php framework",
-                "sql",
-                "sqlite"
+                "dependency injection",
+                "di",
+                "inversion of control",
+                "ioc"
             ],
-            "time": "2015-10-05 07:26:17"
+            "time": "2015-06-16 11:00:40"
         }
     ],
     "packages-dev": [],

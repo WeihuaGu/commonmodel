@@ -2,7 +2,7 @@
     "name": "weihuagu/commonmodel",
     "description": "common model",
     "require": {
-        "catfan/medoo": "1.0"
+       "dc/ioc": "0.*"
     },
     "authors": [
         {
@@ -10,9 +10,15 @@
             "email": "weihuagu_work@163.com"
         }
     ],
+     "support": {
+        "issues": "https://github.com/WeihuaGu/commonmodel/issues",
+        "source": "https://github.com/WeihuaGu/commonmodel"
+    },
     "minimum-stability": "dev",
     "autoload": {
-        "psr-4": { "Weihuagu\\Commonmodel\\": "./"
+        "psr-4": {
+			 "Commonmodel\\": "./",
+			 "Think\\":"./Think"
  }
     }
 }

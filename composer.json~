@@ -2,7 +2,7 @@
     "name": "weihuagu/commonmodel",
     "description": "common model",
     "require": {
-        "catfan/medoo": "1.0"
+       "dc/ioc": "0.*"
     },
     "authors": [
         {
@@ -12,7 +12,7 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-4": { "Weihuagu\\Commonmodel\\": "./"
+        "psr-4": { "Commonmodel\\": "./"
  }
     }
 }
