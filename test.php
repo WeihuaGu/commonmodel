@@ -1,9 +1,12 @@
 <?php 
-namespace Weihuagu\Commonmodel;
-require_once 'autoload.php';
-class test {
-	function test(){
-	echo "this is a test for commonmodel";
-	new \sns\User\Model\UcenterMemberModel();
-	}
-}
+namespace Commonmodel;
+use DC\IoC\Container;
+require 'vendor/autoload.php';
+require 'autoload.php';
+$container = new Container();
+$container
+    ->register(new \Commonmodel\Sns\User\Model\Test())
+    ->to('\test');
+$test=$container->resolve('\test');
+$test->test();
+

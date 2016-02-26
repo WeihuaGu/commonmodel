@@ -1,0 +1,14 @@
+<?php
+namespace Commonmodel\Sns\User\Model;
+class test{
+
+function test(){
+
+
+echo 'this is a test to the autoload';
+}
+
+
+
+
+}

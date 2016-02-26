@@ -17,8 +17,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-			 "Commonmodel\\": "./",
-			 "Think\\":"./Think"
+			 "Commonmodel\\": "./"
  }
     }
 }
