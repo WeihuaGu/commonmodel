@@ -2,7 +2,7 @@
     "name": "weihuagu/commonmodel",
     "description": "common model",
     "require": {
-       "dc/ioc": "0.*"
+       "rdlowrey/auryn":"*"
     },
     "authors": [
         {
