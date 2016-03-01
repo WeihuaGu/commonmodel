@@ -9,7 +9,7 @@
 $ composer install weihuagu/commonmodel
 ```
 
-Or add it to `composer.json`:
+或者 `composer.json`:
 
 ```
 "require": {
