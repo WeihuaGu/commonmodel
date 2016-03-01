@@ -4,29 +4,89 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1a12c4442777dd4404d9bb926219110b",
+    "hash": "c18c3ced0c8dd031d394294bedd1bb49",
     "packages": [
         {
-            "name": "dc/ioc",
-            "version": "0.1.4",
+            "name": "catfan/medoo",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/digitalcreations/ioc.git",
-                "reference": "89efc42e6d0207311d4313180d11d75d3cdd73b0"
+                "url": "https://github.com/catfan/Medoo.git",
+                "reference": "342e2d6a3bcf4adcac58e67593d63547139ab1ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://packagist.phpcomposer.com/files/digitalcreations/ioc/89efc42e6d0207311d4313180d11d75d3cdd73b0.zip",
-                "reference": "89efc42e6d0207311d4313180d11d75d3cdd73b0",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/342e2d6a3bcf4adcac58e67593d63547139ab1ac",
+                "reference": "342e2d6a3bcf4adcac58e67593d63547139ab1ac",
                 "shasum": ""
             },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.1"
+            },
+            "suggest": {
+                "ext-pdo_dblib": "For MSSQL or Sybase databases on Linux/UNIX platform",
+                "ext-pdo_mysql": "For MySQL or MariaDB databases",
+                "ext-pdo_oci": "For Oracle databases",
+                "ext-pdo_pqsql": "For PostgreSQL databases",
+                "ext-pdo_sqlite": "For SQLite databases",
+                "ext-pdo_sqlsrv": "For MSSQL databases on Windows platform"
+            },
+            "type": "framework",
+            "autoload": {
+                "files": [
+                    "medoo.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Angel Lai",
+                    "email": "angel@catfan.me"
+                }
+            ],
+            "description": "The Lightest PHP database framework to accelerate development",
+            "homepage": "http://medoo.in",
+            "keywords": [
+                "database",
+                "lightweight",
+                "mssql",
+                "mysql",
+                "php framework",
+                "sql",
+                "sqlite"
+            ],
+            "time": "2016-02-14 16:03:42"
+        },
+        {
+            "name": "rdlowrey/auryn",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rdlowrey/auryn.git",
+                "reference": "d6e03a7026a1724965c921f4fbd8351ab8f0a9f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rdlowrey/auryn/zipball/d6e03a7026a1724965c921f4fbd8351ab8f0a9f1",
+                "reference": "d6e03a7026a1724965c921f4fbd8351ab8f0a9f1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
             "require-dev": {
-                "phpunit/phpunit": "4.0.*"
+                "athletic/athletic": "~0.1",
+                "fabpot/php-cs-fixer": "~1.9",
+                "phpunit/phpunit": "^4.7"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "DC\\IoC\\": "src/IoC"
+                    "Auryn\\": "lib/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -35,25 +95,32 @@
             ],
             "authors": [
                 {
-                    "name": "Digital Creations AS",
-                    "homepage": "http://www.digitalcreations.no",
-                    "role": "Company"
+                    "name": "Dan Ackroyd",
+                    "email": "Danack@basereality.com",
+                    "homepage": "http://www.basereality.com",
+                    "role": "Developer"
                 },
                 {
-                    "name": "Vegard Andreas Larsen",
-                    "homepage": "http://vega.rd.no",
+                    "name": "Levi Morrison",
+                    "email": "levim@php.net",
+                    "homepage": "http://morrisonlevi.github.com/",
                     "role": "Developer"
+                },
+                {
+                    "name": "Daniel Lowrey",
+                    "email": "rdlowrey@gmail.com",
+                    "homepage": "https://github.com/rdlowrey",
+                    "role": "Creator / Main Developer"
                 }
             ],
-            "description": "Simple IoC container",
-            "homepage": "http://github.com/digitalcreations/ioc",
+            "description": "Auryn is a dependency injector for bootstrapping object-oriented PHP applications.",
+            "homepage": "https://github.com/rdlowrey/auryn",
             "keywords": [
                 "dependency injection",
-                "di",
-                "inversion of control",
+                "dic",
                 "ioc"
             ],
-            "time": "2015-06-16 11:00:40"
+            "time": "2015-12-09 16:44:14"
         }
     ],
     "packages-dev": [],
