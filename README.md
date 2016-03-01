@@ -19,5 +19,7 @@ Or add it to `composer.json`:
 
 ```
 $ composer install
+```
+
 ## 使用
 ### 1：获得commonmodel容器
