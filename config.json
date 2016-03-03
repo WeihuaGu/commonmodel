@@ -1,0 +1,17 @@
+{
+     "datebase": {
+       "database_type" :"mysql",
+       "database_name" :"sns",
+       "server" :"localhost",
+       "username" :"root",
+       "password" :"1992",
+       "charset" :"utf8"
+    }
+
+
+
+
+
+
+
+}
