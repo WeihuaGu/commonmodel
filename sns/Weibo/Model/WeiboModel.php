@@ -1,8 +1,6 @@
 <?php
-namespace Weibo\Model;
+namespace sns\Weibo\Model;
 
-use Think\Model;
-use Think\Hook;
 
 require_once('./Application/Weibo/Common/function.php');
 

@@ -18,7 +18,11 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-			 "Commonmodel\\": "./"
+			 "Commonmodel\\": "./",
+			 "Model\\":"./lib/Model",
+			 "sns\\":"./sns"
+			
+			 
  }
     }
 }

@@ -1,6 +1,8 @@
 <?php 
 namespace Commonmodel;
+use Model\Model;
+use  \Auryn\Injector;
 require_once 'CommonModel.php';
-$injector = new CommonModel;
-$db = $injector->getMedoo();
-print_r( $db->info());
+$injector = new Injector;
+$model= $injector->make('Model\Model');
+$model->dbInfo();
