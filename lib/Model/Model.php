@@ -9,7 +9,8 @@ class Model{
 		$this->setMedoo();
     }
      function getConfig(){
-	$json_config = file_get_contents('config.json');
+	$path=__DIR__.'/../../config.json';
+	$json_config = file_get_contents($path);
 	$config=json_decode($json_config, true);
 	$this->databaseconfig=$config['datebase'];
 
